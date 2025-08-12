@@ -40,7 +40,10 @@
     </div>
 
     <div id="bottomToTopScroll"></div>
-
+    <a id="whatsapp" href="https://wa.me/0000000000000000"
+        class="w-14 h-14 fixed bottom-[5rem] rounded-full right-5 z-50 bg-green-600 hidden fadeIn items-center justify-center ">
+        <i class="fa-brands text-3xl text-white fa-whatsapp"></i>
+    </a>
     <section class="relative galleryBanner overflow-x-hidden">
         <div id="navbar"></div>
 
@@ -271,5 +274,22 @@
     <script src="./docs/javascript/navbar.js"></script>
     <script src="./docs/javascript/footer.js"></script>
 </body>
+<!-- Matomo Tracking Code -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = "//analytics.mainpacket.com/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.async = true;
+        g.src = u + 'matomo.js';
+        s.parentNode.insertBefore(g, s);
+    })();
+</script>
+<!-- End Matomo Tracking Code -->
 
 </html>
