@@ -31,7 +31,7 @@ dynamic_navbar.innerHTML = `
                         </div>
                     </div>
                     <div data-aos="fade-left" class="xl:flex hidden  items-center gap-2">
-                        <a href="#"
+                        <a href="https://www.booking.com/Share-AxXMZg2"
                             class="w-full md:w-auto tracking-wider py-2 px-7 bg-[#cba14f] text-center text-white rounded-sm border border-[#cba14f] hover:opacity-70 transition-all duration-500">
                             Book Now
                         </a>
@@ -65,7 +65,7 @@ dynamic_navbar.innerHTML = `
                     </li>
                 </ul>
                 <div class="mt-5 flex flex-col gap-3">
-                    <a href="#"
+                    <a href="https://www.booking.com/Share-AxXMZg2"
                         class="w-full tracking-wider inline-flex items-center justify-center py-3 px-7 text-base font-medium text-center text-white bg-[#cba14f] rounded-sm border-2 border-[#cba14f]  hover:opacity-70 transition-all duration-500">
                         Book Now
                     </a>

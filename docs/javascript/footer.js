@@ -8,7 +8,7 @@ footer.innerHTML = `
                Our goal is to provide the best hotel services, ensuring exceptional comfort, unforgettable experiences, and unparalleled hospitality.
             </p>
             <div class="mt-7">
-               <a href="#"
+               <a href="https://www.booking.com/Share-AxXMZg2"
                             class="w-full md:w-auto tracking-wider py-2 px-7 bg-[#cba14f] text-center text-white rounded-sm border border-[#cba14f] hover:opacity-70 transition-all duration-500">
                             Book Now
                         </a>
@@ -27,7 +27,7 @@ footer.innerHTML = `
             <h2 class="text-2xl text-zinc-800 font-semibold"> Contact Info</h2>
             <ul class="mt-5 space-y-3 text-zinc-600 font-medium">
                 <li><a href="/contact.html">Contact Us</a></li>
-                <li><a href="#">Book Now</a></li>
+                <li><a href="https://www.booking.com/Share-AxXMZg2">Book Now</a></li>
                 <li><a href="/privacy.html">Privacy Policy</a></li>
             </ul>
         </div>
