@@ -28,7 +28,8 @@
 </head>
 
 <body class="overflow-x-hidden">
-
+    <div class="ibe" data-region="emea" data-channelcode="almaspyramidshotel" data-widget="property_check_availability">
+    </div>
     <div id="global-loader"
         class="hi dden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
         <div class="text-center">
@@ -45,23 +46,8 @@
         class="w-14 h-14 fixed bottom-[5rem] rounded-full right-5 z-50 bg-green-600 hidden fadeIn items-center justify-center ">
         <i class="fa-brands text-3xl text-white fa-whatsapp"></i>
     </a>
-    <section class="relative overflow-x-hidden">
+    <section class="relative overflow-x-hidden bgBanner">
         <div id="navbar"></div>
-
-        <video id="video1" autoplay muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
-            <source src="https://videos.pexels.com/video-files/3773484/3773484-hd_1920_1080_30fps.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
-        <video id="video2" muted playsinline class="absolute inset-0 w-full h-full object-cover z-0 hidden">
-            <source src="https://videos.pexels.com/video-files/5372865/5372865-uhd_2732_1440_25fps.mp4"
-                type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
-
-        <!-- Overlay for dark effect -->
-        <div class="absolute inset-0 bg-black/40 bg-opacity-40 z-10"></div>
         <section
             class="relative overflow-hidden md:min-h-[calc(100vh-10rem)] min-h-[calc(100vh-5rem)] bg-center bg-cover py-10 md:pb-20">
 
@@ -159,7 +145,7 @@
     <section
         class="md:max-w-7xl flex items-center justify-center md:flex-row flex-col md:gap-20 gap-6 lg:px-12 p-4 w-full mx-auto lg:mt-24 mt-12">
         <div data-aos="zoom-in" class="md:w-[50%] w-full">
-            <img src="/docs/assets/images/gallery/img (18).jpg" class="w-full rounded-xl" alt="">
+            <img src="/docs/assets/images/gallery/img (20).jpg" class="w-full rounded-xl" alt="">
         </div>
         <div class="md:w-[50%] w-full">
             <p data-aos="fade-up" class="mb-3 px-2 bg-zinc-100 text-zinc-800 rounded-full py-1 inline-block text-xs">
@@ -288,8 +274,8 @@
                 <!-- Service 1 -->
                 <div data-aos="fade-up">
                     <div class="bg-[#fdf8f3] rounded-lg pb-6 transition-all duration-500 hover:-translate-y-3">
-                        <img src="/docs/assets/images/services1.jpg" class="rounded-t-lg w-full object-cover md:h-76"
-                            alt="Luxury Rooms">
+                        <img src="/docs/assets/images/gallery/img (36).jpg"
+                            class="rounded-t-lg w-full object-cover md:h-76" alt="Luxury Rooms">
                         <div class="px-5 py-2">
                             <h2 class="text-2xl mt-3 font-semibold text-zinc-800">Luxury Rooms</h2>
                             <p class="text-zinc-700 font-medium text-lg">Elegant Comfort</p>
@@ -308,8 +294,8 @@
                 <!-- Service 2 -->
                 <div data-aos="fade-up" data-aos-delay="100">
                     <div class="bg-[#fdf8f3] rounded-lg pb-6 transition-all duration-500 hover:-translate-y-3">
-                        <img src="/docs/assets/images/services2.jpg" class="rounded-t-lg w-full object-cover md:h-76"
-                            alt="Rooftop Dining">
+                        <img src="/docs/assets/images/gallery/img (37).jpg"
+                            class="rounded-t-lg w-full object-cover md:h-76" alt="Rooftop Dining">
                         <div class="px-5 py-2">
                             <h2 class="text-2xl mt-3 font-semibold text-zinc-800">Rooftop Dining</h2>
                             <p class="text-zinc-700 font-medium text-lg">Panoramic Views</p>
@@ -328,8 +314,8 @@
                 <!-- Service 3 -->
                 <div data-aos="fade-up" data-aos-delay="200">
                     <div class="bg-[#fdf8f3] rounded-lg pb-6 transition-all duration-500 hover:-translate-y-3">
-                        <img src="/docs/assets/images/services3.jpg" class="rounded-t-lg w-full object-cover md:h-76"
-                            alt="Guided Tours">
+                        <img src="/docs/assets/images/gallery/img (38).jpg"
+                            class="rounded-t-lg w-full object-cover md:h-76" alt="Guided Tours">
                         <div class="px-5 py-2">
                             <h2 class="text-2xl mt-3 font-semibold text-zinc-800">Guided Tours</h2>
                             <p class="text-zinc-700 font-medium text-lg">Discover Giza</p>
@@ -379,8 +365,7 @@
 
 
         <div data-aos="zoom-in" class="md:w-[50%] w-full">
-            <img src="/docs/assets/images/gallery/img (25).jpg"
-                class="w-full rounded-xl " alt="">
+            <img src="/docs/assets/images/gallery/img (25).jpg" class="w-full rounded-xl " alt="">
         </div>
     </section>
 
@@ -517,7 +502,7 @@
                 <div class="lg:mb-0 mb-10">
                     <div class="group w-full h-full">
                         <div class="relative h-full">
-                            <img src="/docs/assets/images/img2.jpg" alt="ContactUs tailwind section"
+                            <img src="/docs/assets/images/gallery/img (39).jpg" alt="ContactUs tailwind section"
                                 class="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover" />
                             <h1 class="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
                                 Contact us</h1>
@@ -695,32 +680,6 @@
     <script src="./docs/javascript/navbar.js"></script>
     <script src="./docs/javascript/footer.js"></script>
     <script>
-        const video1 = document.getElementById("video1");
-        const video2 = document.getElementById("video2");
-
-        let currentVideo = 1;
-
-        // Function to switch videos
-        function playNextVideo() {
-            if (currentVideo === 1) {
-                video1.classList.add("hidden");
-                video2.classList.remove("hidden");
-                video2.currentTime = 0;
-                video2.play();
-                currentVideo = 2;
-            } else {
-                video2.classList.add("hidden");
-                video1.classList.remove("hidden");
-                video1.currentTime = 0;
-                video1.play();
-                currentVideo = 1;
-            }
-        }
-
-        // When each video ends, switch to the other
-        video1.addEventListener("ended", playNextVideo);
-        video2.addEventListener("ended", playNextVideo);
-
 
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
@@ -751,6 +710,7 @@
     </script>
 
     <!-- Matomo Tracking Code -->
+    <script src="https://widget.siteminder.com/ibe.min.js"></script>
     <script>
         var _paq = window._paq = window._paq || [];
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
